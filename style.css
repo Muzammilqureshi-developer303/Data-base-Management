@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.image img {
+  width: 10%;
+
+}
+.image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  display: flex;
+  background-color: gray;
+}
+
+.item1 {
+  display: flex;
+  justify-content: space-between;
+  white-space: nowrap;
+  padding: 1%;
+  margin-right: 20px;
+  gap: 5px;
+}
+.item1 a {
+  text-align: center;
+  background-image: linear-gradient(to right, rgba(27, 81, 162, 0.9), rgba(149, 34, 113, 0.9));
+  padding: 15px;
+  display: inline-block;
+  color: #fff !important;
+  position: relative;
+  width: 70px;
+  text-decoration: none;
+}
+.item1 a:hover {
+  background-color: lightgray;
+}
+.title1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ragimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ragimg img {
+  width: 50%;
+}
+.sbar {
+  background-image: url("./images/back1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head1 img {
+  width: 30%;
+}
+.sheader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid grey;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.head5 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10%;
+  padding: 3%;
+  gap: 10px;
+}
+.head5 input {
+  width: 100%;
+  padding: 5%;
+  gap: 10px;
+}
+.head1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+::placeholder {
+  font-size: 15px;
+}
+.extrahead {
+  color: red;
+  font-size: 12px;
+}
+.mailer {
+  color: red;
+  font-size: 12px;
+}
+.real {
+  color: red;
+  font-size: 12px;
+}
